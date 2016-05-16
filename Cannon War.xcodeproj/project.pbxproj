@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844F3E6C1CE9595F007F0236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F3E6B1CE9595F007F0236 /* AppDelegate.swift */; };
+		844F3E6E1CE9595F007F0236 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 844F3E6D1CE9595F007F0236 /* GameScene.sks */; };
+		844F3E701CE9595F007F0236 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F3E6F1CE9595F007F0236 /* GameScene.swift */; };
+		844F3E721CE9595F007F0236 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F3E711CE9595F007F0236 /* GameViewController.swift */; };
+		844F3E751CE9595F007F0236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F3E731CE9595F007F0236 /* Main.storyboard */; };
+		844F3E771CE9595F007F0236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844F3E761CE9595F007F0236 /* Assets.xcassets */; };
+		844F3E7A1CE95960007F0236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844F3E781CE95960007F0236 /* LaunchScreen.storyboard */; };
+		844F3E851CE95960007F0236 /* Cannon_WarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F3E841CE95960007F0236 /* Cannon_WarTests.swift */; };
+		844F3E901CE95960007F0236 /* Cannon_WarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844F3E8F1CE95960007F0236 /* Cannon_WarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844F3E811CE95960007F0236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844F3E601CE9595F007F0236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844F3E671CE9595F007F0236;
+			remoteInfo = "Cannon War";
+		};
+		844F3E8C1CE95960007F0236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844F3E601CE9595F007F0236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844F3E671CE9595F007F0236;
+			remoteInfo = "Cannon War";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844F3E681CE9595F007F0236 /* Cannon War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cannon War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844F3E6B1CE9595F007F0236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		844F3E6D1CE9595F007F0236 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		844F3E6F1CE9595F007F0236 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		844F3E711CE9595F007F0236 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		844F3E741CE9595F007F0236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844F3E761CE9595F007F0236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844F3E791CE95960007F0236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		844F3E7B1CE95960007F0236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F3E801CE95960007F0236 /* Cannon WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cannon WarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844F3E841CE95960007F0236 /* Cannon_WarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cannon_WarTests.swift; sourceTree = "<group>"; };
+		844F3E861CE95960007F0236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844F3E8B1CE95960007F0236 /* Cannon WarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cannon WarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		844F3E8F1CE95960007F0236 /* Cannon_WarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cannon_WarUITests.swift; sourceTree = "<group>"; };
+		844F3E911CE95960007F0236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844F3E651CE9595F007F0236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844F3E7D1CE95960007F0236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844F3E881CE95960007F0236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844F3E5F1CE9595F007F0236 = {
+			isa = PBXGroup;
+			children = (
+				844F3E6A1CE9595F007F0236 /* Cannon War */,
+				844F3E831CE95960007F0236 /* Cannon WarTests */,
+				844F3E8E1CE95960007F0236 /* Cannon WarUITests */,
+				844F3E691CE9595F007F0236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844F3E691CE9595F007F0236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844F3E681CE9595F007F0236 /* Cannon War.app */,
+				844F3E801CE95960007F0236 /* Cannon WarTests.xctest */,
+				844F3E8B1CE95960007F0236 /* Cannon WarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844F3E6A1CE9595F007F0236 /* Cannon War */ = {
+			isa = PBXGroup;
+			children = (
+				844F3E6B1CE9595F007F0236 /* AppDelegate.swift */,
+				844F3E6D1CE9595F007F0236 /* GameScene.sks */,
+				844F3E6F1CE9595F007F0236 /* GameScene.swift */,
+				844F3E711CE9595F007F0236 /* GameViewController.swift */,
+				844F3E731CE9595F007F0236 /* Main.storyboard */,
+				844F3E761CE9595F007F0236 /* Assets.xcassets */,
+				844F3E781CE95960007F0236 /* LaunchScreen.storyboard */,
+				844F3E7B1CE95960007F0236 /* Info.plist */,
+			);
+			path = "Cannon War";
+			sourceTree = "<group>";
+		};
+		844F3E831CE95960007F0236 /* Cannon WarTests */ = {
+			isa = PBXGroup;
+			children = (
+				844F3E841CE95960007F0236 /* Cannon_WarTests.swift */,
+				844F3E861CE95960007F0236 /* Info.plist */,
+			);
+			path = "Cannon WarTests";
+			sourceTree = "<group>";
+		};
+		844F3E8E1CE95960007F0236 /* Cannon WarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				844F3E8F1CE95960007F0236 /* Cannon_WarUITests.swift */,
+				844F3E911CE95960007F0236 /* Info.plist */,
+			);
+			path = "Cannon WarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844F3E671CE9595F007F0236 /* Cannon War */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844F3E941CE95960007F0236 /* Build configuration list for PBXNativeTarget "Cannon War" */;
+			buildPhases = (
+				844F3E641CE9595F007F0236 /* Sources */,
+				844F3E651CE9595F007F0236 /* Frameworks */,
+				844F3E661CE9595F007F0236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cannon War";
+			productName = "Cannon War";
+			productReference = 844F3E681CE9595F007F0236 /* Cannon War.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844F3E7F1CE95960007F0236 /* Cannon WarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844F3E971CE95960007F0236 /* Build configuration list for PBXNativeTarget "Cannon WarTests" */;
+			buildPhases = (
+				844F3E7C1CE95960007F0236 /* Sources */,
+				844F3E7D1CE95960007F0236 /* Frameworks */,
+				844F3E7E1CE95960007F0236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844F3E821CE95960007F0236 /* PBXTargetDependency */,
+			);
+			name = "Cannon WarTests";
+			productName = "Cannon WarTests";
+			productReference = 844F3E801CE95960007F0236 /* Cannon WarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		844F3E8A1CE95960007F0236 /* Cannon WarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844F3E9A1CE95960007F0236 /* Build configuration list for PBXNativeTarget "Cannon WarUITests" */;
+			buildPhases = (
+				844F3E871CE95960007F0236 /* Sources */,
+				844F3E881CE95960007F0236 /* Frameworks */,
+				844F3E891CE95960007F0236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844F3E8D1CE95960007F0236 /* PBXTargetDependency */,
+			);
+			name = "Cannon WarUITests";
+			productName = "Cannon WarUITests";
+			productReference = 844F3E8B1CE95960007F0236 /* Cannon WarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844F3E601CE9595F007F0236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brent Johnson";
+				TargetAttributes = {
+					844F3E671CE9595F007F0236 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					844F3E7F1CE95960007F0236 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 844F3E671CE9595F007F0236;
+					};
+					844F3E8A1CE95960007F0236 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 844F3E671CE9595F007F0236;
+					};
+				};
+			};
+			buildConfigurationList = 844F3E631CE9595F007F0236 /* Build configuration list for PBXProject "Cannon War" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844F3E5F1CE9595F007F0236;
+			productRefGroup = 844F3E691CE9595F007F0236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844F3E671CE9595F007F0236 /* Cannon War */,
+				844F3E7F1CE95960007F0236 /* Cannon WarTests */,
+				844F3E8A1CE95960007F0236 /* Cannon WarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844F3E661CE9595F007F0236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844F3E6E1CE9595F007F0236 /* GameScene.sks in Resources */,
+				844F3E7A1CE95960007F0236 /* LaunchScreen.storyboard in Resources */,
+				844F3E771CE9595F007F0236 /* Assets.xcassets in Resources */,
+				844F3E751CE9595F007F0236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844F3E7E1CE95960007F0236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844F3E891CE95960007F0236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844F3E641CE9595F007F0236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844F3E701CE9595F007F0236 /* GameScene.swift in Sources */,
+				844F3E721CE9595F007F0236 /* GameViewController.swift in Sources */,
+				844F3E6C1CE9595F007F0236 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844F3E7C1CE95960007F0236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844F3E851CE95960007F0236 /* Cannon_WarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844F3E871CE95960007F0236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844F3E901CE95960007F0236 /* Cannon_WarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844F3E821CE95960007F0236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844F3E671CE9595F007F0236 /* Cannon War */;
+			targetProxy = 844F3E811CE95960007F0236 /* PBXContainerItemProxy */;
+		};
+		844F3E8D1CE95960007F0236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844F3E671CE9595F007F0236 /* Cannon War */;
+			targetProxy = 844F3E8C1CE95960007F0236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844F3E731CE9595F007F0236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F3E741CE9595F007F0236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844F3E781CE95960007F0236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844F3E791CE95960007F0236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844F3E921CE95960007F0236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844F3E931CE95960007F0236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844F3E951CE95960007F0236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cannon War/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onyxoryx.Cannon-War";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		844F3E961CE95960007F0236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cannon War/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onyxoryx.Cannon-War";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		844F3E981CE95960007F0236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Cannon WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onyxoryx.Cannon-WarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cannon War.app/Cannon War";
+			};
+			name = Debug;
+		};
+		844F3E991CE95960007F0236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cannon WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onyxoryx.Cannon-WarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cannon War.app/Cannon War";
+			};
+			name = Release;
+		};
+		844F3E9B1CE95960007F0236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Cannon WarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onyxoryx.Cannon-WarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cannon War";
+			};
+			name = Debug;
+		};
+		844F3E9C1CE95960007F0236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cannon WarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onyxoryx.Cannon-WarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cannon War";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844F3E631CE9595F007F0236 /* Build configuration list for PBXProject "Cannon War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844F3E921CE95960007F0236 /* Debug */,
+				844F3E931CE95960007F0236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844F3E941CE95960007F0236 /* Build configuration list for PBXNativeTarget "Cannon War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844F3E951CE95960007F0236 /* Debug */,
+				844F3E961CE95960007F0236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		844F3E971CE95960007F0236 /* Build configuration list for PBXNativeTarget "Cannon WarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844F3E981CE95960007F0236 /* Debug */,
+				844F3E991CE95960007F0236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		844F3E9A1CE95960007F0236 /* Build configuration list for PBXNativeTarget "Cannon WarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844F3E9B1CE95960007F0236 /* Debug */,
+				844F3E9C1CE95960007F0236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844F3E601CE9595F007F0236 /* Project object */;
+}
